@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.github-popular-repos-container {
+  text-align: center;
+  font-family: 'Roboto';
+}
+.main-heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+}
+.language-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+.repositories-container {
+  padding-left: 0;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center;
+}

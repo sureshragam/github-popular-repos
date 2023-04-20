@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.language-filter-item {
+  list-style-type: none;
+  margin-right: 20px;
+  display: block;
+}
+li > button {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+}
+.active-tab {
+  color: #0284c7;
+  border-color: #0284c7;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+}

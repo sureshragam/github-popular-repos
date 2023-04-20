@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.repository-item {
+  min-width: 250px;
+  width: 15%;
+  height: 10%;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  list-style-type: none;
+  border-radius: 8px;
+}
+
+.repository-item > img {
+  min-width: 50px;
+  width: 30%;
+}
+.repository-item p {
+  color: #1e293b;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.name {
+  color: #e73959;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.repository-item-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.repository-item-content > img {
+  width: 15px;
+  display: block;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+.failure-view-container {
+  height: 60%;
+}
+.failure-view-container > img {
+  width: 50%;
+}
